@@ -6,8 +6,8 @@ python /home/happyuser/Documents/ageion-dynamics/MRC-SRL/module/RolePrediction/t
 --dev_path /home/happyuser/Documents/ageion-dynamics/MRC-SRL/data/conll2012/dev.english.conll12.json  \
 --max_tokens 1024 \
 --max_epochs 8 \
---lr 8e-6 \
---max_grad_norm 1 \
+--lr 2e-5 \
+--max_grad_norm 2 \
 --warmup_ratio -1 \
 --eval \
 --save \
