@@ -3,7 +3,7 @@ python /home/happyuser/Documents/ageion-dynamics/MRC-SRL/module/RolePrediction/t
 --dataset_tag conll2012 \
 --pretrained_model_name_or_path roberta-large \
 --train_path /home/happyuser/Documents/ageion-dynamics/MRC-SRL/data/conll2012/train.english.conll12[ext].json  \
---dev_path /home/happyuser/Documents/ageion-dynamics/MRC-SRL/data/conll2012/dev.english.conll12.json  \
+--dev_path /home/happyuser/Documents/ageion-dynamics/MRC-SRL/data/conll2012/dev.english.conll12[ext].json  \
 --max_tokens 1024 \
 --max_epochs 8 \
 --lr 8e-6 \
